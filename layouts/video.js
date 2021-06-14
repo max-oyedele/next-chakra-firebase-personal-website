@@ -24,7 +24,7 @@ export default function VideoLayout({ children, frontMatter }) {
     const slug = router.asPath.replace('/videos', '');
     return (
         <Container>
-            <BlogSeo url={`https://benjamincarlson.io/videos/${slug}`} {...frontMatter} />
+            <BlogSeo url={`https://next-chakra-firebase-personal-website.vercel.app/videos/${slug}`} {...frontMatter} />
             <Stack
                 as="article"
                 spacing={8}
@@ -56,13 +56,13 @@ export default function VideoLayout({ children, frontMatter }) {
                         <Flex align="center">
                             <Avatar
                                 size="xs"
-                                name="Benjamin Carlson"
+                                name="James Li"
                                 src="../images/portrait.jpeg"
                                 mr={2}
                             />
                             <Text fontSize="sm" color={textColor[colorMode]}>
                                 {frontMatter.by}
-                                {'Benjamin Carlson / '}
+                                {'James Li / '}
                                 {format(parseISO(frontMatter.publishedAt), 'MMMM dd, yyyy')}
                             </Text>
                         </Flex>

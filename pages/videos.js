@@ -18,8 +18,8 @@ import { SearchIcon } from '@chakra-ui/icons'
 import { getAllFilesFrontMatter } from '../lib/mdx'
 import Container from '../components/Container'
 
-const url = 'https://benjamincarlson.io/videos'
-const title = 'Videos – Benjamin Carlson'
+const url = 'https://next-chakra-firebase-personal-website.vercel.app/videos'
+const title = 'Videos – James Li'
 const description = 'A list of all my YouTube videos.'
 
 export default function Videos({ vids }) {

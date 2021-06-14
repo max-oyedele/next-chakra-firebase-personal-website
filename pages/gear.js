@@ -18,8 +18,8 @@ import { FiArrowRight } from "react-icons/fi"
 import Container from '../components/Container'
 import GearList from '../components/GearList'
 
-const url = 'https://benjamincarlson.io/gear'
-const title = 'Gear – Benjamin Carlson'
+const url = 'https://next-chakra-firebase-personal-website.vercel.app/gear'
+const title = 'Gear – James Li'
 const description = 'The gear I use for programming and productivity every day.'
 
 const Gear = () => {

@@ -15,7 +15,7 @@ export const ButtondownData = () => {
             <StatBox
                 title={`${count ? format(count) : '–––'}`}
                 desc="Email Subscribers"
-                url="https://buttondown.email/benjamincarlson"
+                url="https://buttondown.email/jamesli"
             />
         </>
     )

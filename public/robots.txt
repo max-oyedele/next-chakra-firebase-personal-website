@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://benjamincarlson.io/sitemap.xml
+Sitemap: https://next-chakra-firebase-personal-website.vercel.app/sitemap.xml

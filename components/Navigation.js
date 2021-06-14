@@ -107,7 +107,7 @@ const Navigation = () => {
                         Home
                     </Button>
                 </NextLink>
-                {/* <NextLink href="https://tutorials.benjamincarlson.io" passHref>
+                {/* <NextLink href="https://tutorials.jamesli.io" passHref>
                     <Button as="a" variant="ghost" p={[1, 2, 4]} _hover={{ backgroundColor: navHoverBg[colorMode] }} target="_blank">
                         Tutorials
                     </Button>

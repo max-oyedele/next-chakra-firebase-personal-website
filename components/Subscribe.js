@@ -90,7 +90,7 @@ const Subscribe = () => {
                 <InputGroup size="md" mt={4} borderColor={borderColor[colorMode]}>
                     <Input
                         aria-label="Email for newsletter"
-                        placeholder="ben@benjamincarlson.io"
+                        placeholder="jl@jamesli.io"
                         ref={inputEl}
                         type="email"
                     />

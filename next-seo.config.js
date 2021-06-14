@@ -1,20 +1,20 @@
-const title = 'Benjamin Carlson – Developer, writer, creator.'
+const title = 'James Li – Developer, JS/TS Architect Expert.'
 const description =
-    'Personal portfolio and resume website for Benjamin J. Carlson, a student, developer, writer, and creator attending CCSU in Connecticut.'
+    'Personal portfolio and resume website for James Li'
 
 const SEO = {
     title,
     description,
-    canonical: 'https://benjamincarlson.io',
+    canonical: 'https://next-chakra-firebase-personal-website.vercel.app/',
     openGraph: {
         type: 'website',
         locale: 'en_IE',
-        url: 'https://benjamincarlson.io',
+        url: 'https://next-chakra-firebase-personal-website.vercel.app/',
         title,
         description,
         images: [
             {
-                url: 'https://benjamincarlson.io/images/logo.png',
+                url: 'https://next-chakra-firebase-personal-website.vercel.app/images/logo.png',
                 alt: title
             }
         ]

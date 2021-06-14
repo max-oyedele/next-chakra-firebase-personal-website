@@ -52,7 +52,7 @@ export const Footer = () => {
                     />
                 </Link>
                 <Link
-                    href="https://www.youtube.com/benjamincarlson"
+                    href="https://www.youtube.com/jamesli"
                     title="YouTube"
                     isExternal
                 >
@@ -65,7 +65,7 @@ export const Footer = () => {
                         _hover={{ backgroundColor: footerHoverBg[colorMode] }}
                     />
                 </Link>
-                <Link href="mailto:bjcarlson42@gmail.com" title="Email" isExternal>
+                <Link href="mailto:eastsea1020n@gmail.com" title="Email" isExternal>
                     <IconButton
                         aria-label="Email"
                         icon={<FiMail />}

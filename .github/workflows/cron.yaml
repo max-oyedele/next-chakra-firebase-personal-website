@@ -9,5 +9,5 @@ jobs:
       - name: Call our API route
         run: |
           curl --request POST \
-          --url 'https://benjamincarlson.io/api/weekly-stats' \
+          --url 'https://next-chakra-firebase-personal-website.vercel.app/api/weekly-stats' \
           --header 'Authorization: Bearer ${{ secrets.QUIRREL_TOKEN }}'

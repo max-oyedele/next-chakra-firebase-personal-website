@@ -1,15 +1,15 @@
 {
-  "name": "benjamincarlson.io",
+  "name": "jameslipersonalsite",
   "version": "1.0.0",
   "author": {
-    "name": "Benjamin Carlson",
-    "email": "bjcarlson42@gmail.com",
-    "url": "https://benjamincarlson.io"
+    "name": "James Li",
+    "email": "eastsea1020n@gmail.com",
+    "url": "https://next-chakra-firebase-personal-website.vercel.app"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bjcarlson42/benjamincarlson.io.git"
+    "url": "git+https://github.com/likewagon/next-chakra-firebase-personal-website.git"
   },
   "scripts": {
     "dev": "next dev",

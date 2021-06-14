@@ -17,9 +17,9 @@ import { SearchIcon } from '@chakra-ui/icons'
 
 import { getAllFilesFrontMatter } from '../lib/mdx'
 
-const url = 'https://benjamincarlson.io/blog'
-const title = 'Blog – Benjamin Carlson'
-const description = 'Personal blog for Benjamin Carlson. I write about computer science, web development, python automation, and more.'
+const url = 'https://next-chakra-firebase-personal-website.vercel.app/blog'
+const title = 'Blog – James Li'
+const description = 'Personal blog for James Li. I write about computer science, web development, python automation, and more.'
 
 export default function Blog({ posts }) {
     const [searchValue, setSearchValue] = useState('')

@@ -18,8 +18,8 @@ import StravaData from '../components/StravaData'
 import Repos from '../components/statistics/Repos'
 import Charts from '../components/statistics/Charts'
 
-const url = 'https://benjamincarlson.io/statistics'
-const title = 'Statistics – Benjamin Carlson'
+const url = 'https://next-chakra-firebase-personal-website.vercel.app/statistics'
+const title = 'Statistics – James Li'
 const description = 'My personal dashboard. I use it to keep track of various stats such as YouTube, GitHub, Strava and more.'
 
 const Statistics = () => {

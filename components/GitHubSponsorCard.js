@@ -36,10 +36,10 @@ const GitHubSponsorCard = () => {
                         mx={2}
                     >
                         <Heading as="h3" size="md">
-                            Sponsor Benjamin Carlson on GitHub Sponsors
+                            Sponsor James Li on GitHub Sponsors
                     </Heading>
                         <Text color={colorSecondary[colorMode]}>
-                            Hi 👋 I'm Benjamin Carlson, a college student studying computer science. I post weekly tutorial videos on my YouTube channel and build cool open source projects!
+                            Hi 👋 I'm James Li, a college student studying computer science. I post weekly tutorial videos on my YouTube channel and build cool open source projects!
                     </Text>
                     </Flex>
                     <Flex mt={[2, 0, 0]}>

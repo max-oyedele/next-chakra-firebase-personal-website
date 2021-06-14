@@ -24,7 +24,7 @@ const prettier = require('prettier');
                 const route = path === '/index' ? '' : path;
                 return `
                         <url>
-                            <loc>${`https://benjamincarlson.io${route}`}</loc>
+                            <loc>${`https://next-chakra-firebase-personal-website.vercel.app${route}`}</loc>
                         </url>
                     `;
             })
