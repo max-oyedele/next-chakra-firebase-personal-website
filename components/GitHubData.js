@@ -20,21 +20,21 @@ export const GitHubData = () => {
             <StatBox
                 title={`${followerCount ? format(followerCount) : '–––'}`}
                 desc="GitHub Followers"
-                url="https://github.com/bjcarlson42"
+                url="https://github.com/likewagon"
                 inc_dec={followers_increase > 0 ? 'increase' : 'decrease'}
                 percent={followers_increase}
             />
             <StatBox
                 title={`${projectCount ? format(projectCount) : '–––'}`}
                 desc="GitHub Repos"
-                url="https://github.com/bjcarlson42"
+                url="https://github.com/likewagon"
                 inc_dec={projects_increase > 0 ? 'increase' : 'decrease'}
                 percent={projects_increase}
             />
             <StatBox
                 title={`${starCount ? format(starCount) : '–––'}`}
                 desc="GitHub Stars"
-                url="https://github.com/bjcarlson42"
+                url="https://github.com/likewagon"
                 inc_dec={stars_increase > 0 ? 'increase' : 'decrease'}
                 percent={stars_increase}
             />

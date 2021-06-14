@@ -57,7 +57,7 @@ export default function VideoLayout({ children, frontMatter }) {
                             <Avatar
                                 size="xs"
                                 name="James Li"
-                                src="../images/portrait.jpeg"
+                                src="../images/portrait.jpg"
                                 mr={2}
                             />
                             <Text fontSize="sm" color={textColor[colorMode]}>

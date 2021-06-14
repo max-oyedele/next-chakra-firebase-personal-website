@@ -26,7 +26,7 @@ const GitHubSponsorCard = () => {
             h="100%"
         >
             <Flex>
-                <Image w="75px" h="75px" borderRadius={5} src="/images/portrait.jpeg"></Image>
+                <Image w="75px" h="75px" borderRadius={5} src="/images/portrait.jpg"></Image>
                 <Flex flexDirection={['column', 'row']}>
                     <Flex
                         width="100%"
@@ -43,7 +43,7 @@ const GitHubSponsorCard = () => {
                     </Text>
                     </Flex>
                     <Flex mt={[2, 0, 0]}>
-                        <iframe src="https://github.com/sponsors/bjcarlson42/button" title="Sponsor bjcarlson42" height="35" width="116" style={{ border: '0' }}></iframe>
+                        <iframe src="https://github.com/sponsors/likewagon/button" title="Sponsor likewagon" height="35" width="116" style={{ border: '0' }}></iframe>
                     </Flex>
                 </Flex>
             </Flex>

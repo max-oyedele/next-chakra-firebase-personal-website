@@ -64,7 +64,7 @@ const Projects = () => {
                             Projects
                         </Heading>
                         <Text color={colorSecondary[colorMode]}>Between school, work, youtube, and individual curiosity, I have worked on many projects over the years. Below you will find
-                        all of them. Clicking on the project card will bring you to the GitHub repo. If you enjoy or use any of these projects, please <Link href="https://github.com/sponsors/bjcarlson42" isExternal color="blue.500">consider sponsoring me</Link> on GitHub!
+                        all of them. Clicking on the project card will bring you to the GitHub repo. If you enjoy or use any of these projects, please <Link href="https://github.com/sponsors/likewagon" isExternal color="blue.500">consider sponsoring me</Link> on GitHub!
                         </Text>
                         <Heading letterSpacing="tight" as="h1" mt={4} size="xl" fontWeight={700}>
                             Featured Projects
@@ -79,17 +79,8 @@ const Projects = () => {
                             Coffeeclass is a tutorial website I started to teach programming and computer science skills in a fun and easy to learn manner.
                         </ FeaturedProjectCard>
                         <FeaturedProjectCard
-                            title="25 Days Of Flutter"
-                            href="https://flutter25.com"
-                            src="/images/flutter25.png"
-                            alt='Flutter 25 logo'
-                            color={iconColor[colorMode]}
-                        >
-                            25 Days Of Flutter is a 25 day tutorial series designed to take you from a Flutter beginner to coding a complete app using various modern technologies.
-                        </ FeaturedProjectCard>
-                        <FeaturedProjectCard
                             title="Word Of The Day App"
-                            href="https://github.com/bjcarlson42/wotd"
+                            href="https://github.com/likewagon/wotd"
                             src="/images/wotd.png"
                             alt='Word Of The Day logo'
                             color={iconColor[colorMode]}
@@ -98,7 +89,7 @@ const Projects = () => {
                         </ FeaturedProjectCard>
                         <FeaturedProjectCard
                             title="Personal Website"
-                            href="https://github.com/bjcarlson42/jamesli.io"
+                            href="https://github.com/likewagon/jamesli.io"
                             src="/images/logo.png"
                             alt='Personal website logo'
                             color={iconColor[colorMode]}

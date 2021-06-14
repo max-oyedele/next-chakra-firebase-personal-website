@@ -4,12 +4,12 @@ export default async (req, res) => {
         "Authorization": "Token " + process.env.GITHUB_KEY
     }
 
-    const url = "https://api.github.com/users/bjcarlson42/repos"
+    const url = "https://api.github.com/users/likewagon/repos"
     const response = await fetch(url, { "headers": headers })
     const json = await response.json()
     const projectsList = []
 
-    json.forEach(p => {
+    json?.forEach(p => {
         projectsList.push({ "name": p.name, "stars": p.stargazers_count, "url": p.html_url, "description": p.description, "language": p.language })
     })
 

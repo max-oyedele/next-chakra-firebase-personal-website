@@ -21,7 +21,9 @@
   </url>
 
   <url>
-    <loc>https://next-chakra-firebase-personal-website.vercel.app/statistics</loc>
+    <loc
+      >https://next-chakra-firebase-personal-website.vercel.app/statistics</loc
+    >
   </url>
 
   <url>
@@ -29,7 +31,9 @@
   </url>
 
   <url>
-    <loc>https://next-chakra-firebase-personal-website.vercel.app/blog/connect-flutter-to-firebase</loc>
+    <loc
+      >https://next-chakra-firebase-personal-website.vercel.app/blog/connect-flutter-to-firebase</loc
+    >
   </url>
 
   <url>
@@ -39,15 +43,21 @@
   </url>
 
   <url>
-    <loc>https://next-chakra-firebase-personal-website.vercel.app/blog/python-automation-with-selenium</loc>
+    <loc
+      >https://next-chakra-firebase-personal-website.vercel.app/blog/python-automation-with-selenium</loc
+    >
   </url>
 
   <url>
-    <loc>https://next-chakra-firebase-personal-website.vercel.app/blog/react-native-starter</loc>
+    <loc
+      >https://next-chakra-firebase-personal-website.vercel.app/blog/react-native-starter</loc
+    >
   </url>
 
   <url>
-    <loc>https://next-chakra-firebase-personal-website.vercel.app/blog/tik-tok-coding-idea</loc>
+    <loc
+      >https://next-chakra-firebase-personal-website.vercel.app/blog/tik-tok-coding-idea</loc
+    >
   </url>
 
   <url>
@@ -63,7 +73,9 @@
   </url>
 
   <url>
-    <loc>https://next-chakra-firebase-personal-website.vercel.app/blog/using-react-useeffect</loc>
+    <loc
+      >https://next-chakra-firebase-personal-website.vercel.app/blog/using-react-useeffect</loc
+    >
   </url>
 
   <url>

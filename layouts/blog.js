@@ -25,7 +25,7 @@ import BlogAd from '../components/blog/BlogAd'
 import FeaturedProjectCard from '../components/FeaturedProjectCard'
 
 const editUrl = (slug) =>
-    `https://github.com/bjcarlson42/jamesli.io/edit/main/pages/blog${slug}.mdx`
+    `https://github.com/likewagon/jamesli.io/edit/main/pages/blog${slug}.mdx`
 const tweetUrl = (slug) =>
     `https://twitter.com/intent/tweet?text=https://next-chakra-firebase-personal-website.vercel.app/blog${slug} by @bjmncrlsn`
 
@@ -97,7 +97,7 @@ export default function BlogLayout({ children, frontMatter }) {
                                 <Avatar
                                     size="xs"
                                     name="James Li"
-                                    src="../images/portrait.jpeg"
+                                    src="../images/portrait.jpg"
                                     mr={2}
                                 />
                                 <Text fontSize="sm" color={textColor[colorMode]}>

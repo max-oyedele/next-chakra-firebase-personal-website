@@ -30,7 +30,7 @@ const Statistics = () => {
         dark: 'gray.400'
     }
 
-    const username = 'bjcarlson42';
+    const username = 'likewagon';
     const [userData, setUserData] = useState(null);
     const [langData, setLangData] = useState(null);
     const [repoData, setRepoData] = useState(null);

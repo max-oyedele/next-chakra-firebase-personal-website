@@ -27,7 +27,7 @@ export const Footer = () => {
                         _hover={{ backgroundColor: footerHoverBg[colorMode] }}
                     />
                 </Link>
-                <Link href="https://github.com/bjcarlson42" title="GitHub" isExternal>
+                <Link href="https://github.com/likewagon" title="GitHub" isExternal>
                     <IconButton
                         aria-label="GitHub"
                         icon={<FiGithub />}

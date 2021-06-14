@@ -103,17 +103,8 @@ export default function Index() {
               Coffeeclass is a tutorial website I started to teach programming and computer science skills in a fun and easy to learn manner.
             </ FeaturedProjectCard>
             <FeaturedProjectCard
-              title="25 Days Of Flutter"
-              href="https://flutter25.com"
-              src="/images/flutter25.png"
-              alt='Flutter 25 logo'
-              color={iconColor[colorMode]}
-            >
-              25 Days Of Flutter is a 25 day tutorial series designed to take you from a Flutter beginner to coding a complete app using various modern technologies.
-            </ FeaturedProjectCard>
-            <FeaturedProjectCard
               title="Word Of The Day App"
-              href="https://github.com/bjcarlson42/wotd"
+              href="https://github.com/likewagon/wotd"
               src="/images/wotd.png"
               alt='Word Of The Day logo'
               color={iconColor[colorMode]}
@@ -122,7 +113,7 @@ export default function Index() {
             </ FeaturedProjectCard>
             <FeaturedProjectCard
               title="Personal Website"
-              href="https://github.com/bjcarlson42/jamesli.io"
+              href="https://github.com/likewagon/jamesli.io"
               src="/images/logo.png"
               alt='Personal website logo'
               color={iconColor[colorMode]}

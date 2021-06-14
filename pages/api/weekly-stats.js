@@ -13,18 +13,18 @@ export default CronJob("api/weekly-stats", "00 0 * * 1", async (req, res) => {
         "Authorization": "Token " + process.env.GITHUB_KEY
     }
     // followers
-    const url = "https://api.github.com/users/bjcarlson42/followers"
+    const url = "https://api.github.com/users/likewagon/followers"
     const ghresponse = await fetch(url, { "headers": ghheaders })
     const ghjson = await ghresponse.json()
     const numFollwers = Object.keys(ghjson).length
     // projects
-    const url2 = "https://api.github.com/users/bjcarlson42/repos"
+    const url2 = "https://api.github.com/users/likewagon/repos"
     const response2 = await fetch(url2, { "headers": ghheaders })
     const json2 = await response2.json()
     const numProjects = Object.keys(json2).length
     // stars
     var starsCount = 0
-    json2.forEach(f => {
+    json2?.forEach(f => {
         starsCount += f.stargazers_count
     })
 
