@@ -1,7 +1,7 @@
 
 # live
 
-My personal portfolio website hosted at [https://benjamincarlson.io](https://benjamincarlson.io)
+My personal portfolio website hosted at [https://next-chakra-firebase-personal-website.vercel.app/](https://next-chakra-firebase-personal-website.vercel.app/)
 
 ## Overview
 This site implemented modern architect of Next.js / ChakraUI.
