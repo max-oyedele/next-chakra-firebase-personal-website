@@ -38,7 +38,7 @@ export const Footer = () => {
                     />
                 </Link>
                 <Link
-                    href="https://www.linkedin.com/in/bjcarlson42"
+                    href="https://www.linkedin.com/in/james-li-59158b190"
                     title="LinkedIn"
                     isExternal
                 >
