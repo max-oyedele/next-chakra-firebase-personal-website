@@ -50,9 +50,9 @@ const MobileNavigation = () => {
                     Home
                 </Button>
             </NextLink>
-            <NextLink href="/statistics" passHref>
-                <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/statistics' ? navActiveBg[colorMode] : null}>
-                    Statistics
+            <NextLink href="/projects" passHref>
+                <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/projects' ? navActiveBg[colorMode] : null}>
+                    Projects
                 </Button>
             </NextLink>
             <NextLink href="/blog" passHref>
@@ -60,9 +60,9 @@ const MobileNavigation = () => {
                     Blog
                 </Button>
             </NextLink>
-            <NextLink href="/projects" passHref>
-                <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/projects' ? navActiveBg[colorMode] : null}>
-                    Projects
+            <NextLink href="/statistics" passHref>
+                <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/statistics' ? navActiveBg[colorMode] : null}>
+                    Statistics
                 </Button>
             </NextLink>
             {/* <NextLink href="/gear" passHref>

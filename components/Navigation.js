@@ -63,16 +63,15 @@ const Navigation = () => {
                         Home
                     </Button>
                 </NextLink>
-                <NextLink href="/statistics" passHref>
+                <NextLink href="/projects" passHref>
                     <Button
                         as="a"
                         variant="ghost"
                         p={[1, 2, 4]}
-                        _hover={{ backgroundColor: navHoverBg[colorMode] }}
-                        backgroundColor={router.pathname === '/statistics' ? navHoverBg[colorMode] : null}
-                        aria-label="Statistics"
+                        _hover={{ backgroundColor: navHoverBg[colorMode] }} backgroundColor={router.pathname === '/projects' ? navHoverBg[colorMode] : null}
+                        aria-label="Projects"
                     >
-                        Statistics
+                        Projects
                     </Button>
                 </NextLink>
                 <NextLink href="/blog" passHref>
@@ -86,15 +85,16 @@ const Navigation = () => {
                         Blog
                     </Button>
                 </NextLink>
-                <NextLink href="/projects" passHref>
+                <NextLink href="/statistics" passHref>
                     <Button
                         as="a"
                         variant="ghost"
                         p={[1, 2, 4]}
-                        _hover={{ backgroundColor: navHoverBg[colorMode] }} backgroundColor={router.pathname === '/projects' ? navHoverBg[colorMode] : null}
-                        aria-label="Projects"
+                        _hover={{ backgroundColor: navHoverBg[colorMode] }}
+                        backgroundColor={router.pathname === '/statistics' ? navHoverBg[colorMode] : null}
+                        aria-label="Statistics"
                     >
-                        Projects
+                        Statistics
                     </Button>
                 </NextLink>
                 {/* <NextLink href="/gear" passHref>
