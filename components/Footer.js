@@ -17,7 +17,7 @@ export const Footer = () => {
     return (
         <Flex align="center" mb={4} direction="column" visibility={'hidden', 'visible', 'visible'} display={['none', 'flex', 'flex']}>
             <div>
-                <Link href="https://twitter.com/bjmncrlsn" title="Twitter" isExternal>
+                {/* <Link href="https://twitter.com/maximdymchenko" title="Twitter" isExternal>
                     <IconButton
                         aria-label="Twitter"
                         icon={<FiTwitter />}
@@ -26,7 +26,7 @@ export const Footer = () => {
                         variant="ghost"
                         _hover={{ backgroundColor: footerHoverBg[colorMode] }}
                     />
-                </Link>
+                </Link> */}
                 <Link href="https://github.com/maximdymchenko" title="GitHub" isExternal>
                     <IconButton
                         aria-label="GitHub"
@@ -51,7 +51,7 @@ export const Footer = () => {
                         _hover={{ backgroundColor: footerHoverBg[colorMode] }}
                     />
                 </Link>
-                <Link
+                {/* <Link
                     href="https://www.youtube.com/maximdymchenko"
                     title="YouTube"
                     isExternal
@@ -64,7 +64,7 @@ export const Footer = () => {
                         variant="ghost"
                         _hover={{ backgroundColor: footerHoverBg[colorMode] }}
                     />
-                </Link>
+                </Link> */}
                 <Link href="mailto:eastsea1020n@gmail.com" title="Email" isExternal>
                     <IconButton
                         aria-label="Email"
@@ -76,7 +76,7 @@ export const Footer = () => {
                     />
                 </Link>
             </div>
-            <div>
+            {/* <div>
                 <NextLink href="/hello" passHref>
                     <Link
                         fontSize="md"
@@ -99,7 +99,7 @@ export const Footer = () => {
                         /videos
                     </Link>
                 </NextLink>
-            </div>
+            </div> */}
         </Flex>
     )
 }

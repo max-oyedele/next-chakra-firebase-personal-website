@@ -45,31 +45,31 @@ const MobileNavigation = () => {
             mx="auto"
             display={['flex', 'none', 'none']}
         >
+            <NextLink href="/" passHref>
+                <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/' ? navActiveBg[colorMode] : null}>
+                    Home
+                </Button>
+            </NextLink>
             <NextLink href="/statistics" passHref>
                 <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/statistics' ? navActiveBg[colorMode] : null}>
                     Statistics
-                    </Button>
+                </Button>
             </NextLink>
             <NextLink href="/blog" passHref>
                 <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname.includes('/blog') ? navActiveBg[colorMode] : null}>
                     Blog
-                    </Button>
+                </Button>
             </NextLink>
             <NextLink href="/projects" passHref>
                 <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/projects' ? navActiveBg[colorMode] : null}>
                     Projects
-                    </Button>
+                </Button>
             </NextLink>
-            <NextLink href="/gear" passHref>
+            {/* <NextLink href="/gear" passHref>
                 <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/gear' ? navActiveBg[colorMode] : null}>
                     Gear
                     </Button>
-            </NextLink>
-            <NextLink href="/" passHref>
-                <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/' ? navActiveBg[colorMode] : null}>
-                    Home
-                    </Button>
-            </NextLink>
+            </NextLink> */}
         </StickyNav >
     )
 }

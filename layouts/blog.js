@@ -27,7 +27,7 @@ import FeaturedProjectCard from '../components/FeaturedProjectCard'
 const editUrl = (slug) =>
     `https://github.com/maximdymchenko/edit/main/pages/blog${slug}.mdx`
 const tweetUrl = (slug) =>
-    `https://twitter.com/intent/tweet?text=https://next-chakra-firebase-personal-website.vercel.app/blog${slug} by @bjmncrlsn`
+    `https://twitter.com/intent/tweet?text=https://next-chakra-firebase-personal-website.vercel.app/blog${slug} by @maximdymchenko`
 
 export default function BlogLayout({ children, frontMatter }) {
     const { colorMode } = useColorMode()
@@ -129,7 +129,7 @@ export default function BlogLayout({ children, frontMatter }) {
                             {'Edit on GitHub'}
                         </Link>
                     </Box>
-                    <FeaturedProjectCard
+                    {/* <FeaturedProjectCard
                         title="Coffeeclass"
                         href="https://www.coffeeclass.io/"
                         src="/images/coffee-only-transparent-bg.png"
@@ -137,7 +137,7 @@ export default function BlogLayout({ children, frontMatter }) {
                         color={iconColor[colorMode]}
                     >
                         Coffeeclass is a tutorial website I started to teach programming and computer science skills in a fun and easy to learn manner.
-                    </ FeaturedProjectCard>
+                    </ FeaturedProjectCard> */}
                     <GitHubSponsorCard />
                     <Comments />
                 </Stack>

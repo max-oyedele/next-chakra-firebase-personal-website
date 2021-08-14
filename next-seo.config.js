@@ -20,8 +20,8 @@ const SEO = {
         ]
     },
     twitter: {
-        handle: '@bjmncrlsn',   
-        site: '@bjmncrlsn',
+        handle: '@maximdymchenko',   
+        site: '@maximdymchenko',
         cardType: 'summary_large_image'
     }
 }

@@ -66,7 +66,7 @@ const ProjectItem = ({ name, desc, star_count, href, language }) => {
 const ProjectListFull = () => {
     const [searchValue, setSearchValue] = useState('');
     const { data, error } = useSWR('/api/projects', fetcher)
-    if (error) return <div style={{ width: '100%' }}>Failed to load projects! Please check your internet connnection. If the error persists, contact me.</div>
+    if (error) return <div style={{ width: '100%', marginTop: 50 }}>Failed to load projects! Please check your internet connnection. If the error persists, contact me.</div>
     if (!data) return (
         <div style={{ width: '100%' }}>
             <InputGroup mb={4} mr={4} w="100%">

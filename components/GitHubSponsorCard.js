@@ -26,7 +26,7 @@ const GitHubSponsorCard = () => {
             h="100%"
         >
             <Flex>
-                <Image w="75px" h="75px" borderRadius={5} src="/images/portrait.jpg"></Image>
+                <Image w="75px" h="75px" borderRadius={5} src="/images/github-profile.png"></Image>
                 <Flex flexDirection={['column', 'row']}>
                     <Flex
                         width="100%"
@@ -39,7 +39,7 @@ const GitHubSponsorCard = () => {
                             Sponsor Maxim Dymchenko on GitHub Sponsors
                     </Heading>
                         <Text color={colorSecondary[colorMode]}>
-                            Hi 👋 I'm Maxim Dymchenko, a college student studying computer science. I post weekly tutorial videos on my YouTube channel and build cool open source projects!
+                            Hi 👋 I'm Maxim Dymchenko, experienced Full-stack engineer.
                     </Text>
                     </Flex>
                     <Flex mt={[2, 0, 0]}>

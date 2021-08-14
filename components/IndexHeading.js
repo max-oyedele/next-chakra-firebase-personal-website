@@ -19,7 +19,7 @@ const IndexHeading = () => {
             mb={10}
         >
             <Heading letterSpacing="wide" mb={10} as="h1" fontSize={["40px", "50px", "60px"]}>
-                Hello! I'm Maxim Dymchenko, <br /> a <Flex display="inline" color="blue.200">developer</Flex> and <Flex display="inline" color="blue.200">student</Flex> living and working in CT.
+                Hello! I'm Maxim Dymchenko
             </Heading>
             <Link alignSelf="center" href="#main" mt={20}>
                 <ChevronDownIcon w="40px" height="40px" />

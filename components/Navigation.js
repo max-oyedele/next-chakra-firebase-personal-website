@@ -52,6 +52,17 @@ const Navigation = () => {
         >
             <DarkModeSwitch />
             <Box>
+                <NextLink href="/" passHref>
+                    <Button
+                        as="a"
+                        variant="ghost"
+                        p={[1, 2, 4]}
+                        _hover={{ backgroundColor: navHoverBg[colorMode] }} backgroundColor={router.pathname === '/' ? navHoverBg[colorMode] : null}
+                        aria-label="Home"
+                    >
+                        Home
+                    </Button>
+                </NextLink>
                 <NextLink href="/statistics" passHref>
                     <Button
                         as="a"
@@ -86,7 +97,7 @@ const Navigation = () => {
                         Projects
                     </Button>
                 </NextLink>
-                <NextLink href="/gear" passHref>
+                {/* <NextLink href="/gear" passHref>
                     <Button
                         as="a"
                         variant="ghost"
@@ -95,18 +106,7 @@ const Navigation = () => {
                     >
                         Gear
                     </Button>
-                </NextLink>
-                <NextLink href="/" passHref>
-                    <Button
-                        as="a"
-                        variant="ghost"
-                        p={[1, 2, 4]}
-                        _hover={{ backgroundColor: navHoverBg[colorMode] }} backgroundColor={router.pathname === '/' ? navHoverBg[colorMode] : null}
-                        aria-label="Home"
-                    >
-                        Home
-                    </Button>
-                </NextLink>
+                </NextLink> */}
                 {/* <NextLink href="https://tutorials.maximdymchenko.io" passHref>
                     <Button as="a" variant="ghost" p={[1, 2, 4]} _hover={{ backgroundColor: navHoverBg[colorMode] }} target="_blank">
                         Tutorials

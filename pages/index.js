@@ -14,12 +14,14 @@ import {
 } from '@chakra-ui/react'
 
 import Container from '../components/Container'
+import Profile from '../components/Profile'
 import ExperienceBox from '../components/ExperienceBox'
 import FeaturedProjectCard from '../components/FeaturedProjectCard'
 import { ArrowForwardIcon } from '@chakra-ui/icons'
 import BlogPost from '../components/blog/BlogPost'
 import Todo from '../components/Todo'
 import TechStack from '../components/TechStack'
+import SkillTag from '../components/SkillTag'
 
 const url = 'https://next-chakra-firebase-personal-website.vercel.app/'
 const title = 'Home – Maxim Dymchenko'
@@ -56,6 +58,7 @@ export default function Index() {
         }}
       />
       <Container>
+        <Profile />
         <Stack
           as="main"
           spacing={8}
@@ -71,27 +74,21 @@ export default function Index() {
             alignItems="flex-start"
             maxWidth="700px"
           >
-            <Heading
-              letterSpacing="tight"
-              mb={4}
-              as="h1"
-              size="xl"
-            >
-              Hello! I'm Maxim Dymchenko, a developer, creator, and student living and working in CT.
-            </Heading>
             <Text
               color={colorSecondary[colorMode]}
             >
-              I go to <Link href="https://www2.ccsu.edu/" color={linkColor[colorMode]} isExternal>CCSU</Link> where I study computer science and mathematics.
-            My personal website is where I showcase my projects, writing, statistics, experience, and more.
-            It also serves as a sandbox to play around with new technologies!
-            Feel free to reach out via <Link href="mailto:maximdymchenko@coffeeclass.io" color={linkColor[colorMode]}>email</Link> or any social media with any inquiries.
+              Built or upgrade a number of web and mobile applications with a lot of clients.
+              Key technical skills are just React.js, NextJS, TypeScript, Node.js, MySQL and NoSQL, etc.
+              <br></br>
+              Oriented to Dedicate, Hard working, Contribute, Challenging and Collaborate...
             </Text>
 
-            <Divider mb={12} mt={16} w='90%' alignSelf="center" />
+            {/* <Text><Link href="https://next-tailwind-healthcare-git-main-likewagon.vercel.app/" color={linkColor[colorMode]} isExternal>Healthcare Headless CMS MVP</Link></Text>
+            <Text><Link href="https://apps.apple.com/sc/app/hunters-loop/id1536214645" color={linkColor[colorMode]} isExternal>Hunter's Loop</Link></Text>
+            <Text><Link href="https://monizoom.com/" color={linkColor[colorMode]} isExternal>FinTech</Link></Text> */}
 
-            <Heading letterSpacing="tight" mt={8} size="lg" fontWeight={700} as="h2">
-              Featured Projects
+            <Heading letterSpacing="tight" size="lg" fontWeight={700} mt={10} as="h2">
+              Featured Products
             </Heading>
             <FeaturedProjectCard
               title="Coffeeclass"
@@ -103,36 +100,50 @@ export default function Index() {
               Coffeeclass is a tutorial website I started to teach programming and computer science skills in a fun and easy to learn manner.
             </ FeaturedProjectCard>
             <FeaturedProjectCard
-              title="Word Of The Day App"
-              href="https://github.com/maximdymchenko/wotd"
-              src="/images/wotd.png"
-              alt='Word Of The Day logo'
+              title="One Village"
+              href="https://onevillage.me"
+              src="/images/onevillage.jpg"
+              alt='onevillage'
               color={iconColor[colorMode]}
             >
-              Word of the day app built with <Code>Dart</Code>, <Code>Flutter</Code>, and <Code>Wordnik API</Code>. Video tutorial posted on YouTube.
-            </ FeaturedProjectCard>
+              OneVillage built with <Code>React</Code>, <Code>Next.js</Code>, <Code>TypeScript</Code>, <Code>Tailwind CSS</Code>, and <Code>.NET C# API</Code>. Platform is aiming for online lecture for the children. It is MultiTenant, SaaS platform and consists of Provider portal, Parent portal, Admin, Website and Mobile app
+            </ FeaturedProjectCard>            
             <FeaturedProjectCard
-              title="Personal Website"
-              href="https://github.com/maximdymchenko"
-              src="/images/logo.png"
-              alt='Personal website logo'
+              title="NFT marketplace"
+              href="https://mucitadel.io"
+              src="/images/memeunity.png"
+              alt='memeunity'
               color={iconColor[colorMode]}
             >
-              My personal portfolio website you are on now. Built with <Code>Next.js</Code>, <Code>chakra-ui</Code>, <Code>mdx</Code> pages, and serverless functions for realtime data.
+              MemeUnity is blockchain-based NFT marketplace on which the Users can create token, buy and sell it.
             </FeaturedProjectCard>
+            <FeaturedProjectCard
+              title="OpenHouse Virtual Tour and Agent™"
+              href="https://apps.apple.com/us/app/open-house-and-virtual-tours/id1517663733"
+              src="/images/openhouse.png"
+              alt='openhouse'
+              color={iconColor[colorMode]}
+            >
+              Hybrid mobile app built by <Code>React Native</Code>, <Code>Firebase</Code> for support users to browse real estates, contact with agents, sign in disclosure form, virtual tour and some utility functions.
+            </FeaturedProjectCard>
+            
             <Flex justify="center" width="100%">
               <NextLink href="/projects" passHref>
                 <Link _hover="none" mt={8}>
                   <Button rightIcon={<ArrowForwardIcon />} colorScheme="gray" variant="outline" aria-label="view all projects">
-                    View All Projects
-                </Button>
+                    View GitHub Projects
+                  </Button>
                 </Link>
               </NextLink>
             </Flex>
 
-            <Divider mb={12} mt={16} w='90%' alignSelf="center" />
+            <Divider mb={10} mt={10} w='90%' alignSelf="center" />
 
-            <Heading letterSpacing="tight" mt={8} size="lg" fontWeight={700} as="h2">
+            <SkillTag />
+
+            <Divider mb={10} mt={10} w='90%' alignSelf="center" />
+
+            {/* <Heading letterSpacing="tight" size="lg" fontWeight={700} as="h2">
               Experience
             </Heading>
             <ExperienceBox
@@ -156,25 +167,11 @@ export default function Index() {
               do any coding but I had a hands on look at the I.T. field and worked on a number of hardware related tasks.
             </ExperienceBox>
 
-            <Divider mb={12} mt={16} w='90%' alignSelf="center" />
+            <Divider mb={10} mt={10} w='90%' alignSelf="center" /> */}
 
             <Todo />
 
-            <Divider mb={12} mt={16} w='90%' alignSelf="center" />
-
-            <Heading letterSpacing="tight" mt={8} mb={4} size="lg" fontWeight={700} as="h2">
-              Latest Blog Post
-            </Heading>
-
-            <BlogPost
-              title="UseEffect In Next.JS - React Hooks"
-              summary="Learn what useEffect is learn how to use useEffect in Next.JS."
-              slug="using-react-useeffect"
-            />
-
-            <Divider mb={12} mt={16} w='90%' alignSelf="center" />
-
-            <Heading letterSpacing="tight" mt={8} mb={4} size="lg" fontWeight={700} as="h2">
+            <Heading letterSpacing="tight" mt={10} mb={4} size="lg" fontWeight={700} as="h2">
               Top Blog Posts
             </Heading>
 
@@ -204,21 +201,19 @@ export default function Index() {
               </NextLink>
             </Flex>
 
-            <Divider mb={12} mt={16} w='90%' alignSelf="center" />
+            {/* <Divider mb={10} mt={10} w='90%' alignSelf="center" />
 
             <Flex
               justify="start"
               flexDirection="column"
               display={['none', 'flex', 'flex']}
             >
-              <TechStack />
-            </Flex>
+              <TechStack />              
+            </Flex> */}
 
             <Divider mb={12} mt={16} w='90%' alignSelf="center" display={['none', 'flex', 'flex']} />
 
-            <Text mt={8}>Looks like you've made it to the end of this page... feel free to <Link href="https://youtube.com/maximdymchenko" isExternal color={linkColor[colorMode]}>check out my YouTube channel</Link> or
-            visit <Link href="https://www.coffeeclass.io/" isExternal color={linkColor[colorMode]}>Coffeeclass</Link> where
-            you can find even more programming content.
+            <Text mt={8}>Looks like you've made it to the end of this page... feel free to go through links below
             </Text>
 
           </Flex>
