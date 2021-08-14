@@ -43,7 +43,7 @@ const GitHubSponsorCard = () => {
                     </Text>
                     </Flex>
                     <Flex mt={[2, 0, 0]}>
-                        <iframe src="https://github.com/sponsors/likewagon/button" title="Sponsor likewagon" height="35" width="116" style={{ border: '0' }}></iframe>
+                        <iframe src="https://github.com/sponsors/maximdymchenko/button" title="Sponsor maximdymchenko" height="35" width="116" style={{ border: '0' }}></iframe>
                     </Flex>
                 </Flex>
             </Flex>

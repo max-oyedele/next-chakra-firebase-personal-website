@@ -13,12 +13,12 @@ export default CronJob("api/weekly-stats", "00 0 * * 1", async (req, res) => {
         "Authorization": "Token " + process.env.GITHUB_KEY
     }
     // followers
-    const url = "https://api.github.com/users/likewagon/followers"
+    const url = "https://api.github.com/users/maximdymchenko/followers"
     const ghresponse = await fetch(url, { "headers": ghheaders })
     const ghjson = await ghresponse.json()
     const numFollwers = Object.keys(ghjson).length
     // projects
-    const url2 = "https://api.github.com/users/likewagon/repos"
+    const url2 = "https://api.github.com/users/maximdymchenko/repos"
     const response2 = await fetch(url2, { "headers": ghheaders })
     const json2 = await response2.json()
     const numProjects = Object.keys(json2).length

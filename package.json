@@ -1,5 +1,5 @@
 {
-  "name": "jameslipersonalsite",
+  "name": "maximpersonalsite",
   "version": "1.0.0",
   "author": {
     "name": "Maxim Dymchenko",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/likewagon/next-chakra-firebase-personal-website.git"
+    "url": "git+https://github.com/maximdymchenko/next-chakra-firebase-personal-website.git"
   },
   "scripts": {
     "dev": "next dev",

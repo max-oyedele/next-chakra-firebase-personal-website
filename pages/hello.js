@@ -61,14 +61,14 @@ const Hello = () => {
                             my={5}
                         />
                         <Heading letterSpacing="tight" mb={4} as="h1" size="xl" alignSelf="center">
-                            Hello 👋, I'm James
+                            Hello 👋, I'm Maxim
                         </Heading>
                         <Text alignSelf="center" textAlign="center" mb={4}>I’m a developer, modern JS/TS web architect expert. Use the links below to learn more.</Text>
                         <SocialLink name={title} href={vid_url} icon={YoutubeIcon} />
                         <SocialLink name="Check Out My Website!" href="/" icon={CodeIcon} />
-                        <SocialLink name="View My Opensource Code!" href="https://github.com/likewagon?tab=repositories" icon={GitHubIcon} />
-                        {/* <SocialLink name="Subscribe to my newsletter" href="https://buttondown.email/likewagon" icon={MailIcon} /> */}
-                        <SocialLink name="Sponsor me on GitHub!" href="https://github.com/sponsors/likewagon" icon={GitHubIcon} />
+                        <SocialLink name="View My Opensource Code!" href="https://github.com/maximdymchenko?tab=repositories" icon={GitHubIcon} />
+                        {/* <SocialLink name="Subscribe to my newsletter" href="https://buttondown.email/maximdymchenko" icon={MailIcon} /> */}
+                        <SocialLink name="Sponsor me on GitHub!" href="https://github.com/sponsors/maximdymchenko" icon={GitHubIcon} />
                         {/* <SocialLink name="Subscribe To My YouTube Channel!" href="https://www.youtube.com/channel/UCLMdmCCRFGWt7rktx6tMErw?sub_confirmation=1" icon={YoutubeIcon} /> */}
                         {/* <SocialLink name="Follow Me On Twitter!" href="https://twitter.com/bjmncrlsn" icon={TwitterIcon} /> */}
                     </Flex>

@@ -19,21 +19,21 @@ export const YouTubeData = () => {
             <StatBox
                 title={`${subscriberCount ? format(subscriberCount) : '–––'}`}
                 desc="YouTube Subscribers"
-                url="https://youtube.com/jamesli"
+                url="https://youtube.com/maximdymchenko"
                 inc_dec={subs_increase > 0 ? 'increase' : 'decrease'}
                 percent={subs_increase}
             />
             <StatBox
                 title={`${viewCount ? format(viewCount) : '–––'}`}
                 desc="YouTube Views"
-                url="https://youtube.com/jamesli"
+                url="https://youtube.com/maximdymchenko"
                 inc_dec={views_increase > 0 ? 'increase' : 'decrease'}
                 percent={views_increase}
             />
             <StatBox
                 title={`${videoCount ? format(videoCount) : '–––'}`}
                 desc="YouTube Videos"
-                url="https://youtube.com/jamesli"
+                url="https://youtube.com/maximdymchenko"
                 inc_dec={vid_count_increase > 0 ? 'increase' : 'decrease'}
                 percent={vid_count_increase}
             />

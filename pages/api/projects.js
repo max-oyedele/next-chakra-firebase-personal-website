@@ -4,7 +4,7 @@ export default async (req, res) => {
         "Authorization": "Token " + process.env.GITHUB_KEY
     }
 
-    const url = "https://api.github.com/users/likewagon/repos"
+    const url = "https://api.github.com/users/maximdymchenko/repos"
     const response = await fetch(url, { "headers": headers })
     const json = await response.json()
     const projectsList = []

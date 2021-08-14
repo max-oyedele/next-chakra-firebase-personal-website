@@ -28,7 +28,7 @@ const ExperienceBox = ({ name, years, pos, badge_1, badge_2, children }) => {
     return (
 
         <Link
-            href="https://www.linkedin.com/in/james-li-59158b190/#experience-section"
+            href="https://www.linkedin.com/in/maxim-dymchenko-59158b190/#experience-section"
             isExternal
             _hover={{
                 boxShadow: boxShadowColor[colorMode],

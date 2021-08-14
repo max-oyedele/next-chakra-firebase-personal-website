@@ -23,7 +23,7 @@ import TechStack from '../components/TechStack'
 
 const url = 'https://next-chakra-firebase-personal-website.vercel.app/'
 const title = 'Home – Maxim Dymchenko'
-const description = 'Developer, creator, writer, and student living and working in CT. Browse James\'s latest projects, experience, blog posts, and statistics.'
+const description = 'Developer, creator, writer, and student living and working in CT. Browse Maxim\'s latest projects, experience, blog posts, and statistics.'
 
 export default function Index() {
   const { colorMode } = useColorMode()
@@ -85,7 +85,7 @@ export default function Index() {
               I go to <Link href="https://www2.ccsu.edu/" color={linkColor[colorMode]} isExternal>CCSU</Link> where I study computer science and mathematics.
             My personal website is where I showcase my projects, writing, statistics, experience, and more.
             It also serves as a sandbox to play around with new technologies!
-            Feel free to reach out via <Link href="mailto:jamesli@coffeeclass.io" color={linkColor[colorMode]}>email</Link> or any social media with any inquiries.
+            Feel free to reach out via <Link href="mailto:maximdymchenko@coffeeclass.io" color={linkColor[colorMode]}>email</Link> or any social media with any inquiries.
             </Text>
 
             <Divider mb={12} mt={16} w='90%' alignSelf="center" />
@@ -104,7 +104,7 @@ export default function Index() {
             </ FeaturedProjectCard>
             <FeaturedProjectCard
               title="Word Of The Day App"
-              href="https://github.com/likewagon/wotd"
+              href="https://github.com/maximdymchenko/wotd"
               src="/images/wotd.png"
               alt='Word Of The Day logo'
               color={iconColor[colorMode]}
@@ -113,7 +113,7 @@ export default function Index() {
             </ FeaturedProjectCard>
             <FeaturedProjectCard
               title="Personal Website"
-              href="https://github.com/likewagon/jamesli.io"
+              href="https://github.com/maximdymchenko"
               src="/images/logo.png"
               alt='Personal website logo'
               color={iconColor[colorMode]}
@@ -216,7 +216,7 @@ export default function Index() {
 
             <Divider mb={12} mt={16} w='90%' alignSelf="center" display={['none', 'flex', 'flex']} />
 
-            <Text mt={8}>Looks like you've made it to the end of this page... feel free to <Link href="https://youtube.com/jamesli" isExternal color={linkColor[colorMode]}>check out my YouTube channel</Link> or
+            <Text mt={8}>Looks like you've made it to the end of this page... feel free to <Link href="https://youtube.com/maximdymchenko" isExternal color={linkColor[colorMode]}>check out my YouTube channel</Link> or
             visit <Link href="https://www.coffeeclass.io/" isExternal color={linkColor[colorMode]}>Coffeeclass</Link> where
             you can find even more programming content.
             </Text>

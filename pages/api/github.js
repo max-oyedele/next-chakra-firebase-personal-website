@@ -3,12 +3,12 @@ export default async (req, res) => {
         "Authorization": "Token " + process.env.GITHUB_KEY
     }
     // followers
-    const url = "https://api.github.com/users/likewagon/followers?per_page=1000"
+    const url = "https://api.github.com/users/maximdymchenko/followers?per_page=1000"
     const response = await fetch(url, { "headers": headers })
     const json = await response.json()
     const numFollwers = Object.keys(json).length
     // projects
-    const url2 = "https://api.github.com/users/likewagon/repos?per_page=1000"
+    const url2 = "https://api.github.com/users/maximdymchenko/repos?per_page=1000"
     const response2 = await fetch(url2, { "headers": headers })
     const json2 = await response2.json()
     const numProjects = Object.keys(json2).length
