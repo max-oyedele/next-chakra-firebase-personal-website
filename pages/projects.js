@@ -16,7 +16,7 @@ import FeaturedProjectCard from '../components/FeaturedProjectCard'
 import GitHubSponsorCard from '../components/GitHubSponsorCard'
 
 const url = 'https://next-chakra-firebase-personal-website.vercel.app/projects'
-const title = 'Projects – James Li'
+const title = 'Projects – Maxim Dymchenko'
 const description = 'Here are some of the open source projects and GitHub repos I am working on.'
 
 const Projects = () => {

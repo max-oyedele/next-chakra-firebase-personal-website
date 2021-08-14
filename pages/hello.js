@@ -15,7 +15,7 @@ import Container from '../components/Container'
 import { TwitterIcon, YoutubeIcon, GitHubIcon, MailIcon, CodeIcon } from '../components/CustomIcons'
 
 const url = 'https://next-chakra-firebase-personal-website.vercel.app/hello'
-const titleSEO = 'Hello – James Li'
+const titleSEO = 'Hello – Maxim Dymchenko'
 const description = 'I am a developer and creator. Here are some of my links.'
 
 const Hello = () => {
@@ -54,7 +54,7 @@ const Hello = () => {
                     >
                         <Avatar
                             size='2xl'
-                            name="James Li"
+                            name="Maxim Dymchenko"
                             src="../images/portrait.jpg"
                             mr={2}
                             alignSelf="center"

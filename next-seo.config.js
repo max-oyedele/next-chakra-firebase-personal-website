@@ -1,6 +1,6 @@
-const title = 'James Li – Developer, JS/TS Architect Expert.'
+const title = 'Maxim Dymchenko – Developer, JS/TS Architect Expert.'
 const description =
-    'Personal portfolio and resume website for James Li'
+    'Personal portfolio and resume website for Maxim Dymchenko'
 
 const SEO = {
     title,

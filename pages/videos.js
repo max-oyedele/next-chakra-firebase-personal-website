@@ -19,7 +19,7 @@ import { getAllFilesFrontMatter } from '../lib/mdx'
 import Container from '../components/Container'
 
 const url = 'https://next-chakra-firebase-personal-website.vercel.app/videos'
-const title = 'Videos – James Li'
+const title = 'Videos – Maxim Dymchenko'
 const description = 'A list of all my YouTube videos.'
 
 export default function Videos({ vids }) {

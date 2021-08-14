@@ -22,7 +22,7 @@ import Todo from '../components/Todo'
 import TechStack from '../components/TechStack'
 
 const url = 'https://next-chakra-firebase-personal-website.vercel.app/'
-const title = 'Home – James Li'
+const title = 'Home – Maxim Dymchenko'
 const description = 'Developer, creator, writer, and student living and working in CT. Browse James\'s latest projects, experience, blog posts, and statistics.'
 
 export default function Index() {
@@ -77,7 +77,7 @@ export default function Index() {
               as="h1"
               size="xl"
             >
-              Hello! I'm James Li, a developer, creator, and student living and working in CT.
+              Hello! I'm Maxim Dymchenko, a developer, creator, and student living and working in CT.
             </Heading>
             <Text
               color={colorSecondary[colorMode]}
