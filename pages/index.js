@@ -90,7 +90,7 @@ export default function Index() {
             <Heading letterSpacing="tight" size="lg" fontWeight={700} mt={10} as="h2">
               Featured Products
             </Heading>
-            <FeaturedProjectCard
+            {/* <FeaturedProjectCard
               title="Coffeeclass"
               href="https://www.coffeeclass.io/"
               src="/images/coffee-only-transparent-bg.png"
@@ -98,7 +98,7 @@ export default function Index() {
               color={iconColor[colorMode]}
             >
               Coffeeclass is a tutorial website I started to teach programming and computer science skills in a fun and easy to learn manner.
-            </ FeaturedProjectCard>
+            </ FeaturedProjectCard> */}
             <FeaturedProjectCard
               title="One Village"
               href="https://onevillage.me"
